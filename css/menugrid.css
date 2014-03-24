@@ -1,0 +1,65 @@
+#menu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu a {
+  float: left;
+  position: relative;
+  width: 140px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+#menu i {
+  border-radius: 0;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+  position: relative;
+}
+
+#menu.round i { 
+  border-radius: 50%
+}
+
+
+#menu h4 {
+  font-size: 14px;
+  text-align: center; 
+  font-weight: bold;
+}
+
+#menu li:hover h4 {
+  text-decoration: underline;
+}
+
+#menu span.badge {
+  position: absolute;
+  z-index: 9999px !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#menu.round span.badge {
+  right: 10px;
+  top: 5px;
+}
+
+#menu.square span.badge {
+  border-radius: 0px;
+  top: 1px;
+  right: 0px;
+}
+
